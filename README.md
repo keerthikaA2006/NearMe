@@ -28,8 +28,8 @@ Execute the programs and publish them.
 ```
 map.html
 
-<html>
-    <head>
+html>
+   < <head>
         <title>My City</title>
     </head>
     <body>
@@ -40,16 +40,15 @@ map.html
             <font color="blue"><b>keerthika A (24900898)</b></font>
         </h3>
         <center>
-            <img src="map.png" usemap="#MyCity" height="610" width="1450">
+            <img src="map.png" usemap="#MyCity">
             <map name="MyCity">
-            <area shape="rect" coords="700,300,900,900"href="home.html"title="My Home Town">
-            <area shape="circle" coords="570,230,45"href="temple.html"title="Brahmapureeswarar temple">
-            <area shape="circle" coords="700,200,40"href="hills.html"title="Yelagiri hills">
-            <area shape="circle" coords="1120,360,25"href="falls.html"title="Jalagamparai falls">
-            <area shape="rect" coords="700,300,900,900"href="busstop.html"title="Tirupattur busstop">
+    <area target="" alt="Sathiya residency" title="Sathiya residency" href="sathiya.html" coords="862,383,1060,464" shape="rect">
+    <area target="" alt="Hotel hills" title="Hotel hills" href="hotel.html" coords="905,627,1157,688" shape="rect">
+    <area target="" alt="Green trends" title="Green trends" href="trends.html" coords="1010,311,1179,353" shape="rect">
+    <area target="" alt="Jalagamparai falls" title="Jalagamparai falls" href="falls.html" coords="1620,653,1498,570" shape="rect">
+    <area target="" alt="My Home Town" title="My Home Town" href="home.html" coords="947,524,1071,565" shape="rect">
             </map>
         </center>
-
     </body>
 </html>
 
@@ -81,35 +80,6 @@ falls.html
 </body>
 </html>
 
-hills.html
-
-<html>
-    <head>
-        <title>My Home Town</title>
-    </head>
-    <body bgcolor="white">
-    <h1 align="center">
-        <font color="red"><b>Tirupattur</b></font>
-    </h1>
-    <h3 align="center">
-        <font color="blue"><b>Yelagiri hills</b></font>
-    </h3>
-    <hr size="3" color="red">
-    <p align="justify">
-        <font face="Tirupattur"size="5">
-            The hills consist of 14 hamlets spread across an area of 72 km2 (28 sq mi).
-             As per folklore, when Hindu god Vishnu visited the earth, he planted his feet on the hills.
-             As the people could not stand his weight, they yelled ‘yelo’ in fear (‘kili’ in Tamil),
-             which later became Yelagiri.[1][2] As per Hindu beliefs, Vishnu came to the hills later to marry goddess Lakshmi,
-             who is known by the name "Yelagiri Thayar" and the region came to be known as Yeloshwaram.[3]
-             In the 19th century, Malai Vellalar (Malayali) hill tribes, populated the region.[11] Later, 
-             the British Empire took control of the region from the British East India Company in 1857.
-
-        </font>
-    </p>
-</body>
-</html>
-
 home.html
 
 <html>
@@ -121,7 +91,7 @@ home.html
         <font color="red"><b>Tirupattur</b></font>
     </h1>
     <h3 align="center">
-        <font color="blue"><b></b>My Home Town</font>
+        <font color="blue"><b>My Home Town</b></font>
     </h3>
     <hr size="3" color="red">
     <p align="justify">
@@ -138,7 +108,33 @@ home.html
 </body>
 </html>
 
-busstop.html
+hotel.html
+
+<html>
+    <head>
+        <title>My Home Town</title>
+    </head>
+    <body bgcolor="white">
+    <h1 align="center">
+        <font color="red"><b>Tirupattur</b></font>
+    </h1>
+    <h3 align="center">
+        <font color="blue"><b>Hotel hills</b></font>
+    </h3>
+    <hr size="3" color="red">
+    <p align="justify">
+        <font face="Tirupattur"size="5">
+            Hotel Hills Tirupattur is a best hotel in Tiruppatūr that boasts a terrace and shared lounge.
+            Each accommodation at the hotel has city views, and guests can enjoy access to a restaurant and to on-site dining.
+            The hotel also features free WiFi and free private parking.At the hotel, all rooms are fitted with a desk. 
+            Rooms are equipped with a private bathroom and free toiletries, and certain rooms at Hotel Hills Tirupattur have a terrace.
+            The units have a flat-screen TV with cable channels.
+        </font>
+    </p>
+</body>
+</html>
+
+sathiya.html
 
 <html>
     <head>
@@ -149,24 +145,21 @@ busstop.html
         <font color="red"><b>Tirupattur</b></font>
     </h1>
     <h3 align="center">
-        <font color="blue"><b>Tirupattur busstop</b></font>
+        <font color="blue"><b>Sathiya residency</b></font>
     </h3>
     <hr size="3" color="red">
     <p align="justify">
         <font face="Tirupattur"size="5">
-             Tirupattur, new buses were introduced on five routes.
-             While one of them is between Dharmapuri and Chennai, passing through Tirupattur, Vaniyambadi, Ambur and Vellore,
-             another is from Ambur to Bengaluru. Buses under the free travel scheme for women were introduced between Tirupattur and 
-             Yelagiri Hills, and Ambur and Gudiyatham.Buses on these new routes in Ranipet and Tirupattur districts will be operated on all days, including Sundays. 
-             The buses were purchased at a cost of ₹1.93 crore for each district. Tirupattur Collector K.
-             Tharpagaraj, and MLAs for Jolarpet (Tirupattur) and Arcot (Ranipet) Assembly constituencies, K. Devaraji and J.L. Eeswarappan, were present.
-
+             Sathya Residency in tirupattur with a wide range of products and services, and courteous staff.
+             It's open from 00:00–23:59 and accepts cash as a payment method.
+             There are multiple matches for Sathya Residency
+            
         </font>
     </p>
 </body>
 </html>
 
-temple.html
+trends.html
 
 <html>
     <head>
@@ -177,34 +170,25 @@ temple.html
         <font color="red"><b>Tirupattur</b></font>
     </h1>
     <h3 align="center">
-        <font color="blue"><b>Brahmapureeswarar temple</b></font>
+        <font color="blue"><b>Green trends</b></font>
     </h3>
     <hr size="3" color="red">
     <p align="justify">
         <font face="Tirupattur"size="5">
-            A Hindu temple in Tirupattur, near Trichy, that some believe can change a person's fate. 
-            Legend says that the temple was built by King Valvil Ori, a devotee of Lord Shiva. 
-            Devotees place their horoscopes at the feet of the lord to seek his blessings.Being moved by Brahma's prayers, Shiva, on Devi Parvathi’s appeal,
-            gave him Darshan under the Magizha tree and liberated him from his curse. 
-            Shiva also restored the power and responsibility of creation to Brahma.Shiva also blessed Brahma that he would have a separate shrine at this temple. 
-            He also advised Brahma that since Brahma himself had his destiny rewritten here; he should rewrite the destiny of his devotees visiting this temple.
-            Since the fate of Brahma, the Creator, himself was changed by Shiva at Tirupattur, one can expect a turning point in life by praying at this temple.
-            
-            
-
+             Green Trends is known for being one of the best salons for men's haircuts and styling.
+             They offer a variety of haircuts, including low fade, man bun, faux hawk, crew cut, quiff, pompadour,
+             French crop, comb over, and ivy league
         </font>
     </p>
 </body>
 </html>
-
 ```
 ## OUTPUT
-![alt text](1.png)
-![alt text](2.png)
-![alt text](3.png)
-![alt text](4.png)
-![alt text](5.png)
-![alt text](6.png)
-
+![alt text](<1 (3)-1.png>)   
+![alt text](2-1.png)
+![alt text](3-1.png)
+![alt text](4-1.png)
+![alt text](5-1.png)
+![alt text](6-1.png)
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
